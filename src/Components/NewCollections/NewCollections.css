@@ -1,0 +1,141 @@
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.new-collections h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.new-collections hr {
+    border: 0;
+    width: 600px;
+    height: 40px;
+    background: url(../Assets/hr.png);
+    background-repeat: no-repeat;
+}
+
+.collections-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+@media (max-width:1280px) {
+    .new-collections{
+        height: 145vh;
+    }
+    .new-collections h1{
+        font-size: 40px;
+    }
+    .new-collections hr {
+        width: 250px;
+        height: 6px;   
+        border-radius: 10px;
+        background-color: #b9b9b9;
+    }
+    .collections-item{
+        gap: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:1024px) {
+    .new-collections{
+        height: 135vh;
+    }
+    .new-collections h1{
+        font-size: 30px;
+    }
+    .new-collections hr {
+        width: 230px;
+        height: 4px;   
+        border-radius: 10px;
+        background-color: #b9b9b9;
+    }
+    .collections-item{
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    .new-collections{
+        height: 260vh;
+    }
+    .new-collections h1{
+        font-size: 20px;
+    }
+    .new-collections hr {
+        width: 230px;
+        height: 4px;   
+        border-radius: 10px;
+        background-color: #b9b9b9;
+    }
+    .collections-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .new-collections{
+        height: 700vh;
+        background-color: white;
+        padding-top: 10px;
+    }
+    .new-collections h1{
+        padding-top: 0px;
+        font-size: 20px;
+        font-weight: 600;
+    } 
+    .new-collections hr {
+        width: 150px;
+        height: 6px;   
+        border-radius: 10px;
+        background-color: #b9b9b9;
+    }
+    .collections-item{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+    }
+}
+
+@media (max-width:390px) {
+    .new-collections{
+        height: 560vh;
+        background-color: white;
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+    .new-collections h1{
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    } 
+    .new-collections hr {
+        width: 150px;
+        height: 6px;   
+        border-radius: 10px;
+        background-color: #b9b9b9;
+    }
+    .collections-item{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        gap: 15px;
+    }
+}

@@ -137,25 +137,35 @@
 
 
 @media (max-width:500px) {
+    .hero{
+        height: 115vh;
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+    }
+    .hero-right{
+        padding-top: 30px;
+    } 
+    .hero-right img{
+        width: 240px;
+    }
     .hero-left{
-        padding-left: 30px;
+        display: flex;
+        align-items: center;
     }
     .hero-left h2{
+        padding-right: 80px;
         font-size: 18px;
     }
     .hero-left p{
-        font-size: 40px;
+        font-size: 45px;
     }
     .hero-hand-icon img{
         width: 50px;
     }
     .hero-latest-btn{
-        width: 200px;
-        height: 40px;
-        font-size: 16px;
-    }
-    .hero-right img{
         width: 250px;
+        height: 55px;
+        font-size: 16px;
     }
 }
 

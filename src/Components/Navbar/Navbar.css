@@ -148,7 +148,7 @@
 
 @media(max-width:800px){
     .navbar{
-        padding: 10px 0px;
+        padding: 20px 0px;
     }
     .nav-dropdown{
         display: block;
